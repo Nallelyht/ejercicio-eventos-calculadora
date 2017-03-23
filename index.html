@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <title>Calculadora</title>
   </head>
-  <body>
+  <body style="background-color:#E6E6FA">
     <center>
       <form name="calculadora">
         <h1>Calculadora básica</h1>
         <table border="2">
+          <tr>
+            <td  align="center" colspan="4"><input type="text" name="resultado2" id="resultado2"></td>
+          </tr>
+
           <tr>
             <td  align="center" colspan="4"><input type="text" name="resultado" id="resultado"></td>
           </tr>
@@ -38,7 +42,7 @@
           </tr>
           <tr>
             <td align="center"> <input type="button" name="C" value="C" onclick="borrar()"></td>
-
+            <td align="center"> <input type="button" name="x2" value="x^2" onclick="cuadrado()"></td>
           </tr>
         </table>
       </form>
